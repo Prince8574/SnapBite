@@ -7,10 +7,12 @@ import List from './pages/List/List'
 import Orders from './pages/Orders/Orders'
 import { ToastContainer } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
+  import cors from 'cors';
+app.use(cors());
 
 
 const App = () => {
-  const url = 'http://localhost:4000';
+  const url = 'https://snap-bite-4dv4.vercel.app';
   return (
     <div>
       <ToastContainer/>
