@@ -1,6 +1,6 @@
 import userModel from "../models/userModel.js";
 import jwt from "jsonwebtoken"; // Authentication
-import bcrypt from "bcrypt"; // Password hashing
+import bcrypt from "bcryptjs"; // Password hashing
 import validator from "validator"; // Input validation
 import { response } from "express";
 

@@ -7,7 +7,7 @@ const stripe = new Stripe('sk_test_51QOXGdAteoGm6wfcYRV2ZNMe9hunlRgZHC1fK2kMVwwP
 
 // Place the Order from the user from the Front end
 const placeOrder = async (req, res) => {
-  const frontend_url = "http://localhost:5173";
+  const frontend_url = "https://snap-bite-fyq7.vercel.app/";
 
   try {
     const { userId, items, amount, address } = req.body;
