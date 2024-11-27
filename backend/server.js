@@ -6,6 +6,8 @@ import userRouter from './routes/userRoute.js';
 import cartRouter from './routes/cartRoute.js';
 import orderRouter from './routes/orderRoute.js';
 import dotenv from 'dotenv';
+import cors from 'cors';
+app.use(cors());
 
 // App configuration
 dotenv.config();
