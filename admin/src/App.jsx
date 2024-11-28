@@ -12,7 +12,7 @@ app.use(cors());
 
 
 const App = () => {
-  const url = 'https://snap-bite-4dv4.vercel.app';
+  const url = 'https://food-del-backend-ye2x.onrender.com';
   return (
     <div>
       <ToastContainer/>

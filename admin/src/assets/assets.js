@@ -14,4 +14,4 @@ export const assets ={
     parcel_icon
 }
 
-export const url = 'https://snap-bite-4dv4.vercel.app/'
+export const url = 'https://food-del-backend-ye2x.onrender.com'

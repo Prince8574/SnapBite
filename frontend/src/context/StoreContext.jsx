@@ -14,7 +14,7 @@ const StoreContextProvider = (props) => {
     return localStorage.getItem("token") || "";
   });
   const [food_list, setFoodList] = useState([]);
-  const url = "https://snap-bite-4dv4.vercel.app/"; // Ensure your backend is running on this
+  const url = "https://food-del-backend-ye2x.onrender.com"; // Ensure your backend is running on this
 
   // Update localStorage whenever cartItems change
   useEffect(() => {
